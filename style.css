@@ -1,0 +1,36 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+
+
+
+html, body { height: 100%; width: 100%; margin: 0; }
+body{
+    font-family: sans-serif;
+    /* margin: 10px; */
+    background-color: #FAE2E2;
+
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    }
+
+#Currency{
+    display: grid;
+    justify-content: center;
+    background-color: #FE4F4D;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#Sugar{
+    display: grid;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #FE4F4D;
+    border-radius: 0px 0px 10px 10px;
+}
