@@ -70,4 +70,21 @@ object{
 .currencyInput{
     font-size: 66.59px; 
     justify-self: center;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 150px;
+    color:white;
+    cursor:default;
+    font-family: 'Vina Sans', sans-serif;
+    text-align: center;
+
+}
+
+
+input[type="number"]{
+
 }
