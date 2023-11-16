@@ -96,3 +96,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+::placeholder {
+    color: white;
+    opacity: 0.8; /* Firefox */
+  }
