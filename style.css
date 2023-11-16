@@ -47,7 +47,8 @@ object{
 
 input{
     background-color: transparent;
-    border-style: 1px soli black;
+    border-color: #FE4F4D;
+    border-style: 1px solid;
     width: 40px;
     height: 40px;
     z-index: 999;
