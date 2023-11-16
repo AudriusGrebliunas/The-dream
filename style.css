@@ -45,7 +45,7 @@ object{
     
 }
 
-input{
+.submitForm{
     background-color: transparent;
     border-color: #FE4F4D;
     border-style: 1px solid;
