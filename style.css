@@ -7,7 +7,7 @@ body{
     font-family: sans-serif;
     /* margin: 10px; */
     background-color: #FAE2E2;
-
+    font-family: 'Vina Sans', sans-serif;
 }
 
 #content {
@@ -33,4 +33,14 @@ body{
     background-color: #FFFFFF;
     color: #FE4F4D;
     border-radius: 0px 0px 10px 10px;
+}
+
+object{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
 }
