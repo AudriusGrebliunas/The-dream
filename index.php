@@ -25,12 +25,12 @@ if (!($data['data'][0]['value'])) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <form action="index.php" method="GET">
+    <form action="index.php" method="POST">
         <div id="content" style="height: 100%;">
             <div id="Currency">
                 <p class="currency">Dollar:</p>
-                <input type="number" name="currency" id="" class="currencyInput" placeholder="<?php if (isset($_GET['currency'])){
-                    echo $_GET['currency'];
+                <input type="number" name="currency" id="" class="currencyInput" placeholder="<?php if (isset($_POST['currency'])){
+                    echo $_POST['currency'];
                 }
                 else{
                     echo "...";
@@ -45,10 +45,10 @@ if (!($data['data'][0]['value'])) {
                     <?php $user_value; ?>
                     <?php
 
-                    if (isset($_GET['currency']) && $firstValue != false) {
+                    if (isset($_POST['currency']) && $firstValue != false) {
 
 
-                        $sugarAmount = ((1 / $firstValue) * $_GET['currency'] * 100) * 453.59237;
+                        $sugarAmount = ((1 / $firstValue) * $_POST['currency'] * 100) * 453.59237;
 
                         // echo round($sugarAmount) . " grams";
                         // $user_value = $user_value.''.$user_
